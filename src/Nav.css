@@ -1,0 +1,15 @@
+.nav{
+    position: fixed;
+    top: 0;
+    height: 70px;
+  
+    
+}
+.nav_black{
+    background-color: black;
+}
+
+.nav_logo{
+    width: 130px;
+    object-fit: contain;
+}

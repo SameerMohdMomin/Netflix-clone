@@ -1,0 +1,255 @@
+[debug] [2020-10-25T17:57:00.061Z] ----------------------------------------------------------------------
+[debug] [2020-10-25T17:57:00.064Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-10-25T17:57:00.065Z] CLI Version:   8.13.1
+[debug] [2020-10-25T17:57:00.065Z] Platform:      win32
+[debug] [2020-10-25T17:57:00.065Z] Node Version:  v12.19.0
+[debug] [2020-10-25T17:57:00.109Z] Time:          Sun Oct 25 2020 23:27:00 GMT+0530 (India Standard Time)
+[debug] [2020-10-25T17:57:00.109Z] ----------------------------------------------------------------------
+[debug] [2020-10-25T17:57:00.110Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=46936253&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-25T17:58:36.236Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AfDhmrjaviMlaiyDQ2-pRMoP_9UAsudqUta-rGehJLycF64i92bExa9W-eDhecoPvTIVzw","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-25T17:58:36.273Z] Token Fetch Error: FirebaseError: Server Error. tunneling socket could not be established, statusCode=405
+    at Request._callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:314:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at ClientRequest.onConnect (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\tunnel-agent\index.js:168:23)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at Socket.socketOnData (_http_client.js:509:11)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:298:12)
+    at readableAddChunk (_stream_readable.js:273:9)
+[debug] [2020-10-25T17:58:59.970Z] ----------------------------------------------------------------------
+[debug] [2020-10-25T17:58:59.976Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-10-25T17:58:59.976Z] CLI Version:   8.13.1
+[debug] [2020-10-25T17:58:59.976Z] Platform:      win32
+[debug] [2020-10-25T17:58:59.976Z] Node Version:  v12.19.0
+[debug] [2020-10-25T17:58:59.978Z] Time:          Sun Oct 25 2020 23:28:59 GMT+0530 (India Standard Time)
+[debug] [2020-10-25T17:58:59.978Z] ----------------------------------------------------------------------
+[debug] [2020-10-25T17:58:59.978Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=836934503&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-25T17:59:15.282Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AfDhmrg1T4ckoQ6OoZgB7MBzEX4DoTX6OHW4V1jil-jAIfETjO8NfiPzn7Am2s4whfPnxA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-25T17:59:15.308Z] Token Fetch Error: FirebaseError: Server Error. tunneling socket could not be established, statusCode=405
+    at Request._callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:314:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at ClientRequest.onConnect (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\tunnel-agent\index.js:168:23)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at Socket.socketOnData (_http_client.js:509:11)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:298:12)
+    at readableAddChunk (_stream_readable.js:273:9)
+[debug] [2020-10-25T17:59:54.711Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AfDhmrg1T4ckoQ6OoZgB7MBzEX4DoTX6OHW4V1jil-jAIfETjO8NfiPzn7Am2s4whfPnxA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-25T17:59:54.729Z] Token Fetch Error: FirebaseError: Server Error. tunneling socket could not be established, statusCode=405
+    at Request._callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:314:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at ClientRequest.onConnect (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\tunnel-agent\index.js:168:23)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at Socket.socketOnData (_http_client.js:509:11)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:298:12)
+    at readableAddChunk (_stream_readable.js:273:9)
+[debug] [2020-10-25T17:59:55.297Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AfDhmrg1T4ckoQ6OoZgB7MBzEX4DoTX6OHW4V1jil-jAIfETjO8NfiPzn7Am2s4whfPnxA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-25T17:59:55.384Z] Token Fetch Error: FirebaseError: Server Error. tunneling socket could not be established, statusCode=405
+    at Request._callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:314:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at ClientRequest.onConnect (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\tunnel-agent\index.js:168:23)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at Socket.socketOnData (_http_client.js:509:11)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:298:12)
+    at readableAddChunk (_stream_readable.js:273:9)
+[debug] [2020-10-25T17:59:55.467Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AfDhmrg1T4ckoQ6OoZgB7MBzEX4DoTX6OHW4V1jil-jAIfETjO8NfiPzn7Am2s4whfPnxA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-25T17:59:55.543Z] Token Fetch Error: FirebaseError: Server Error. tunneling socket could not be established, statusCode=405
+    at Request._callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:314:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at ClientRequest.onConnect (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\tunnel-agent\index.js:168:23)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at Socket.socketOnData (_http_client.js:509:11)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:298:12)
+    at readableAddChunk (_stream_readable.js:273:9)
+[debug] [2020-10-25T17:59:55.626Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AfDhmrg1T4ckoQ6OoZgB7MBzEX4DoTX6OHW4V1jil-jAIfETjO8NfiPzn7Am2s4whfPnxA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-25T17:59:55.693Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AfDhmrg1T4ckoQ6OoZgB7MBzEX4DoTX6OHW4V1jil-jAIfETjO8NfiPzn7Am2s4whfPnxA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-25T17:59:55.848Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AfDhmrg1T4ckoQ6OoZgB7MBzEX4DoTX6OHW4V1jil-jAIfETjO8NfiPzn7Am2s4whfPnxA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-25T17:59:56.077Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AfDhmrg1T4ckoQ6OoZgB7MBzEX4DoTX6OHW4V1jil-jAIfETjO8NfiPzn7Am2s4whfPnxA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-25T17:59:56.346Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AfDhmrg1T4ckoQ6OoZgB7MBzEX4DoTX6OHW4V1jil-jAIfETjO8NfiPzn7Am2s4whfPnxA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-25T17:59:57.177Z] Token Fetch Error: FirebaseError: Server Error. tunneling socket could not be established, statusCode=405
+    at Request._callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:314:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at ClientRequest.onConnect (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\tunnel-agent\index.js:168:23)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at Socket.socketOnData (_http_client.js:509:11)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:298:12)
+    at readableAddChunk (_stream_readable.js:273:9)
+[debug] [2020-10-25T17:59:57.194Z] Token Fetch Error: FirebaseError: Server Error. tunneling socket could not be established, statusCode=405
+    at Request._callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:314:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at ClientRequest.onConnect (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\tunnel-agent\index.js:168:23)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at Socket.socketOnData (_http_client.js:509:11)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:298:12)
+    at readableAddChunk (_stream_readable.js:273:9)
+[debug] [2020-10-25T17:59:57.196Z] Token Fetch Error: FirebaseError: Server Error. tunneling socket could not be established, statusCode=405
+    at Request._callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:314:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at ClientRequest.onConnect (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\tunnel-agent\index.js:168:23)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at Socket.socketOnData (_http_client.js:509:11)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:298:12)
+    at readableAddChunk (_stream_readable.js:273:9)
+[debug] [2020-10-25T17:59:57.200Z] Token Fetch Error: FirebaseError: Server Error. tunneling socket could not be established, statusCode=405
+    at Request._callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:314:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at ClientRequest.onConnect (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\tunnel-agent\index.js:168:23)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at Socket.socketOnData (_http_client.js:509:11)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:298:12)
+    at readableAddChunk (_stream_readable.js:273:9)
+[debug] [2020-10-25T17:59:57.203Z] Token Fetch Error: FirebaseError: Server Error. tunneling socket could not be established, statusCode=405
+    at Request._callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:314:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at ClientRequest.onConnect (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\tunnel-agent\index.js:168:23)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at Socket.socketOnData (_http_client.js:509:11)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:298:12)
+    at readableAddChunk (_stream_readable.js:273:9)
+[debug] [2020-10-25T18:00:20.902Z] ----------------------------------------------------------------------
+[debug] [2020-10-25T18:00:20.906Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-10-25T18:00:20.906Z] CLI Version:   8.13.1
+[debug] [2020-10-25T18:00:20.906Z] Platform:      win32
+[debug] [2020-10-25T18:00:20.906Z] Node Version:  v12.19.0
+[debug] [2020-10-25T18:00:20.908Z] Time:          Sun Oct 25 2020 23:30:20 GMT+0530 (India Standard Time)
+[debug] [2020-10-25T18:00:20.908Z] ----------------------------------------------------------------------
+[debug] [2020-10-25T18:00:20.909Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=1040145362&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-25T18:00:32.962Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AfDhmrg1RPhthe0eVqt8fswXhgOdWjHw9fVGiaLUjhqpXDJlf2F0WkkZlDGpA11m1Y0qXw","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-25T18:00:32.988Z] Token Fetch Error: FirebaseError: Server Error. tunneling socket could not be established, statusCode=405
+    at Request._callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:314:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at ClientRequest.onConnect (C:\Users\sameer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\tunnel-agent\index.js:168:23)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at Socket.socketOnData (_http_client.js:509:11)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:298:12)
+    at readableAddChunk (_stream_readable.js:273:9)
